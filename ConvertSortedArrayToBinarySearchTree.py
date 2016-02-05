@@ -23,7 +23,7 @@ class Solution(object):
         if not nums:
             return None
         
-		#base case, if array lengths is 1 or less, just return a TreeNode from the single element in the array
+		#base case, if array length is 1 or less, just return a TreeNode from the single element in the array
         if len(nums) <= 1:
             return TreeNode(nums[0])
         
